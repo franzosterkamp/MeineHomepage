@@ -19,20 +19,20 @@
     <title>Meine Homepage</title>
   </head>
   <body>
-    <header style="margin-bottom: 20px;">
-      >
+    <header style="margin-bottom: 20px;" id="Oben">
+    
       <div class="container">
         <div class="row">
-          <div class="col-5">
+          <div class="col-sm" style="margin-bottom: 10px;">
             <img
               src="Bilder/FranzBild.png"
               alt="Ein Bild von Franz"
               class="img-fluid img-thumbnail"
             />
           </div>
-          <div class="col-5">
+          <div class="col-sm" style="margin-bottom: 10px;">
 
-              <div class="card bg-light mb-1" style="max-width: 40rem;">
+              <div class= "card bg-light mb-1" style="max-width: 40rem;">
                   <div class="card-header"></h3> <b>Franz Osterkamp</b> </div>
                   <div class="card-body">
                     <h5 class="card-title">Skills</h5>
@@ -46,13 +46,14 @@
                       <span class="badge badge-light">React</span>
                       <span class="badge badge-dark">Markdown</span></p>
                   </div>
+          </div>
                 </div>
           
         
          
           </div>
-          <div class="col-2">
-            <div class="dropdown">
+          
+            <div class="dropdown col-sm">
               <a
                 class="btn btn-secondary dropdown-toggle btn-small"
                 href="#"
@@ -71,37 +72,36 @@
               >
                 <div class="row">
                   <a
-                    class="dropdown-item col-8"
+                    class="dropdown-item col-10"
                     href="https://www.xing.com/profile/Franz_Osterkamp/cv"
                     >Xing</a
                   >
                   <img
                     src="Bilder/Xing.png"
                     alt="Xing Logo"
-                    width="35px;"
-                    height="35px;"
-                    class="col-4"
+                  
+                    class="col-2"
                   />
                 </div>
                 <div class="row">
                   <a
-                    class="dropdown-item col-8"
+                    class="dropdown-item col-10"
                     href="https://www.linkedin.com/in/franz-osterkamp-828061127/"
                     >LinkedIn</a
                   >
                   <img
                     src="Bilder/LinkedIn.jpeg"
                     alt="LinkedIn Logo"
-                    width="31px;"
-                    height="31px;"
-                    class="col-4"
+                   
+                    class="col-2"
                   />
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+          
+        
       </div>
+    
     </header>
 
 
@@ -109,7 +109,7 @@
 
           
           <div class="card bg-light mb-3 text-center" style="max-width: 40rem; margin: auto;">
-              <div class="card-header"></h3> <b>Bilder aus den Leben</b> </div>
+              <div class="card-header"> <b id="Leben">Bilder aus dem Leben</b> </div>
               <div class="card-body">
                 <h5 class="card-title text-center"></h5>
                 <p class="card-text">   
@@ -178,21 +178,86 @@
                       </div>
         </div>
       </div>
-  
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          One of three columns
-        </div>
-        <div class="col-sm">
-          One of three columns
-        </div>
-        <div class="col-sm">
-          One of three columns
-        </div>
-      </div>
-    </div>
+      <h2 class="text-center" style="margin: 10px;" id="Beruf"> Berufliche Stationen </h2>
+      <div class="container">
+          <div class="row mb-1 text-light bg-secondary">
+            <div class="col-4 border-right">10/2019 bis 01/2020</div>
+            <div class="col-8">neue Fische GmbH</div>
+          </div>
+          <div class="row"> 
+            <div class="col-4 border-right"> Aufgaben </div>
+            <div class="col-8">
+                <ul>
+                    <li>Webseiten erstellen mit HTML & Bootstrap</li>
+                    <li>GIT Ordner erstellen und updaten, Shell-Befehle ausführen</li>
+                    <li>Protokolle mit MARKDOWN schreiben</li>
+                    <li>Rauchen</li>
+                  </ul>
 
+            </div>
+            
+          </div>
+          <div class="row mb-5 text-light bg-danger">
+              <div class="col-4 border-right">technische Umgebung</div>
+              <div class="col-8">GIT, HTML, Bootstrap, CSS, MARKDOWN, Shell</div>
+            </div>
+
+        </div>
+
+      <div class="container">
+          <div class="row mb-1 text-light bg-secondary">
+            <div class="col-4 border-right">05/2019 bis 09/2019</div>
+            <div class="col-8">ALTEN GmbH</div>
+          </div>
+          <div class="row"> 
+            <div class="col-4 border-right"> Aufgaben </div>
+            <div class="col-8">
+                <ul>
+                    <li>Interviews mit Kandidaten aus dem europaeischen Ausland</li>
+                    <li>Vertragsverhandlung mit den Kandidaten</li>
+                    <li>Identifizieren von geeigeneten Kandidaten</li>
+                    <li>Bedarfe aus den Fachbereichen ermitteln</li>
+                  </ul>
+
+            </div>
+            
+          </div>
+          <div class="row mb-5 text-light bg-danger">
+              <div class="col-4 border-right">technische Umgebung</div>
+              <div class="col-8">UNATRIX (internes Bewerber-Mgmt-System), Excel, Word</div>
+            </div>
+
+        </div>
+
+        <div class="container">
+            <div class="row mb-1 text-light bg-secondary">
+              <div class="col-4 border-right">10/2016 bis 04/2019</div>
+              <div class="col-8">Seven Principles AG</div>
+            </div>
+            <div class="row"> 
+              <div class="col-4 border-right"> Aufgaben </div>
+              <div class="col-8">
+                  <ul>
+                      <li>freiberufliche Kandidaten aus dem IT-Sektor Identifizieren</li>
+                      <li>Interview mit den Freiberuflern führen</li>
+                      <li>Tages- und Stundensätze der Freiberufler verhandeln</li>
+                      <li>Profile der Freiberufler überarbeiten </li>
+                    </ul>
+  
+              </div>
+              
+            </div>
+            <div class="row mb-5 text-light bg-danger">
+                <div class="col-4 border-right">technische Umgebung</div>
+                <div class="col-8"> StaffIT, Excel, Word</div>
+              </div>
+  
+          </div>
+          <div class="text-center">
+          <a class="btn btn-warning text-center" href="#Oben">Home</a>
+          <a class="btn btn-warning text-center" href="#Leben">Bilder aus dem Leben</a>
+          <a class="btn btn-warning text-center" href="#Beruf">Berufliche Stationen</a>
+        </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
